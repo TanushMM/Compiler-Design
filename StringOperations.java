@@ -1,6 +1,5 @@
 import java.util.*;
 
-// Developed by Tanush M M [210071601181]
 // String Operations without using inbuilt string functions except some essentials
 
 public class StringOperations {
