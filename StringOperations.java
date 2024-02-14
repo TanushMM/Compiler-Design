@@ -1,5 +1,6 @@
 import java.util.*;
 
+// Developed by Tanush M M [210071601181]
 // String Operations without using inbuilt string functions except some essentials
 
 public class StringOperations {
@@ -85,16 +86,17 @@ public class StringOperations {
 
     public static void main(String[] args) {
         // string length
-        System.out.println(stringLength("hello"));
+        System.out.println("Length: "  + stringLength("hello"));
 
         // isEmpty()
-        System.out.println(isEmpty("hello"));
+        System.out.println("isEmpty() or not: " + isEmpty("hello"));
 
         // String concatenate
-        System.out.println(concatenate("Hello", "World"));
+        System.out.println("String after concatenation: " + concatenate("Hello", "World"));
 
         // String to character array
         char[] cArray = toCharacterArray("Hello");
+        System.out.println("Character array from String: ");
         for (char c : cArray) {
             System.out.print(c + " ");
         }
@@ -102,16 +104,17 @@ public class StringOperations {
 
         // subString()
         String str = "hello";
-        System.out.println(subString(str, 1, 3));
+        System.out.println("Substring: " + subString(str, 1, 3));
 
         // stringReplace()
-        System.out.println(stringReplace(str, 'l', 'x'));
+        System.out.println("String after replacing: " + stringReplace(str, 'l', 'x'));
 
         // String Split
-        System.out.println(splitString("This is a test This is another test"));
+        System.out.println("String after splitting: "+ splitString("This is a test This is another test"));
 
         // String isEqual()
+        str = "hello";
         String str2 = "hellO";
-        System.out.println(isEqual(str, str2));
+        System.out.println("String equals() method: " + isEqual(str, str2));
     }
 }
