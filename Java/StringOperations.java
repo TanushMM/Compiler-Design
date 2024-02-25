@@ -115,5 +115,8 @@ public class StringOperations {
         str = "hello";
         String str2 = "hellO";
         System.out.println("String equals() method: " + isEqual(str, str2));
+
+        System.out.println("String after toUpperCase(): " + str.toUpperCase());
+        System.out.println("String after toLowerCase(): " + str.toLowerCase());
     }
 }
